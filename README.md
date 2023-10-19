@@ -5,7 +5,7 @@
 * The data of the two subtasks is saved in the **data** folder, *BTDATA.zip*, which contains the data for the sentence puzzle and word puzzle. 
 * The data for training Roberta-L(RS) on RiddleSense is stored in *rs_train.jsonl*, and validation data is stored in *rs_dev.jsonl*.
 #### **Note:** The brain teaser was also selected as one of the interesting competitions in [SemEval 2024](https://brainteasersem.github.io/), So we only release training data at the current stage. We will release all data by the end of the competition. 
-#### **Note:** To prevent automatic data crawlers, *BTDATA.zip* needs password: **brainteaser**
+#### **Note:** To prevent automatic data crawlers, *BTDATA.zip* needs a password: **brainteaser**
 
 ### 2. **Model evaluation**
 The code files used for zero/few-shot prompting are all stored in the **prompting** folder:  
