@@ -1,7 +1,8 @@
 ### This repository contains data and code for the EMNLP 2023 paper "BRAINTEASER: Lateral Thinking Puzzles for Large Language Models"
 ### 1. **Data**
 * The data of the two subtasks is saved in the **data** folder, *BTDATA.zip*, which contains the data for the sentence puzzle and word puzzle. 
-* The data used for training Roberta-L on riddlesense is stored in *rs_train.jsonl* and validation data is stored in *rs_dev.jsonl*.
+* The data used for training Roberta-L on riddlesense is stored in *rs_train.jsonl*, and validation data is stored in *rs_dev.jsonl*.
+* **Note:** The brain teaser also be selected as one of the interesting competitions in SemEval 2024 <https://brainteasersem.github.io/>, So we only release training data at the current stage. We will release all data by the end of the competition. 
 
 ### 2. **Main experiment**
 The code files used for zero/few-shot prompting are all stored in the **prompting** folder:  
@@ -13,7 +14,7 @@ The code files used for zero/few-shot prompting are all stored in the **promptin
 * Code for CAR is in *Prompting_car_emnlp.ipynb*.
 * The demonstration examples used in few-shot prompting is stored in *data/demonstration.npy*.
 * The code for finetuning Roberta-L on riddlesense is stored in *Finetuned_riddle.ipynb*.
-* All models and its checkpoints are publicly available on huggingface, and all methods used in the code are summarized in *utils.py*.
+* All models and their checkpoints are publicly available on huggingface, and all methods used in the code are summarized in *utils.py*.
 ### 3. **Human experiments**
 All spreadsheets used for human experiments are stored in **data** folder:
 * Human validation data is stored in *human_val.xlsx*.
