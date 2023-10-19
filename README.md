@@ -21,3 +21,11 @@ All spreadsheets used for human experiments are stored in **data** folder:
 * Human validation data is stored in *human_val.xlsx*.
 * Human evaluation data is stored in *human_eval.xlsx*.
 * Human open-end task is stored in *human_open.xlsx*.
+
+### Cite
+@article{jiang2023brainteaser,
+  title={BRAINTEASER: Lateral Thinking Puzzles for Large Language Model},
+  author={Jiang, Yifan and Ilievski, Filip and Ma, Kaixin},
+  journal={arXiv preprint arXiv:2310.05057},
+  year={2023}
+}
