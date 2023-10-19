@@ -1,3 +1,5 @@
+# BRAINTEASER: Lateral Thinking Puzzles for Large Language Models
+
 ### This repository contains data and code for the EMNLP 2023 paper "BRAINTEASER: Lateral Thinking Puzzles for Large Language Models". See full paper [here](https://arxiv.org/abs/2310.05057)
 ### 1. **Data**
 * The data of the two subtasks is saved in the **data** folder, *BTDATA.zip*, which contains the data for the sentence puzzle and word puzzle. 
