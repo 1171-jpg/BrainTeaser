@@ -26,12 +26,10 @@ All spreadsheets used for human experiments are stored in the **data** folder:
 
 ### Cite
 ```
-@misc{jiang2023brainteaser,
+@inproceedings{jiang2023brainteaser,
       title={BRAINTEASER: Lateral Thinking Puzzles for Large Language Models}, 
       author={Yifan Jiang and Filip Ilievski and Kaixin Ma and Zhivar Sourati},
       year={2023},
-      eprint={2310.05057},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}
 }
 ```
