@@ -6,7 +6,7 @@
 * The data for training Roberta-L(RS) on RiddleSense is stored in *rs_train.jsonl*, and validation data is stored in *rs_dev.jsonl*.
 #### **Note:** The brain teaser was also selected as one of the interesting competitions in [SemEval 2024](https://brainteasersem.github.io/), So we only release training data at the current stage. We will release all data by the end of the competition. 
 
-#### **Note:** The current result on the Codalab is evaluated on a **small amount (10%) of data with 80% of training data available**, as the competition is just beginning and in the practice phase. 
+#### **Note:** The current result on the Codalab is evaluated on a ### small amount (10%) of data with 80% of training data available, as the competition is just beginning and in the practice phase. 
 
 #### **Note:** To prevent automatic data crawlers, *BTDATA.zip* needs a password: **brainteaser**
 
