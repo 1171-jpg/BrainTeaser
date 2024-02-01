@@ -7,14 +7,19 @@
 
 **Note:** The brain teaser was also selected as one of the interesting competitions in [SemEval 2024](https://brainteasersem.github.io/), so we created a split for the Semeval Competition (train/test). The data contained in *BTDATA.zip* are as follows:
 
-- `SP_train.npy` (Semeval training data)
-- `WP_train.npy` (Semeval training data)
-- `SP_test.npy` (Semeval test data)
-- `WP_test.npy` (Semeval test data)
-- `SP_test_answer.npy` (Semeval test data answer)
-- `WP_test_answer.npy` (Semeval test data answer)
-- `sentence_puzzle.npy` (EMNLP zero-shot experiment on all sentence puzzle data)
-- `word_puzzle.npy` (EMNLP zero-shot experiment on all word puzzle data)
+- Semeval Competition
+  - Training Data
+    - `SP_train.npy` (Semeval training data)
+    - `WP_train.npy` (Semeval training data)
+  - Test Data
+    - `SP_test.npy` (Semeval test data)
+    - `WP_test.npy` (Semeval test data)
+    - `SP_test_answer.npy` (Semeval test data answer)
+    - `WP_test_answer.npy` (Semeval test data answer)
+- EMNLP Zero-Shot Experiment
+  - `sentence_puzzle.npy` (on all sentence puzzle data)
+  - `word_puzzle.npy` (on all word puzzle data)
+
 
 
 
