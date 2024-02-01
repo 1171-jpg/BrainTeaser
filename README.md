@@ -4,8 +4,18 @@
 ### 1. **Data**
 * The data of the two subtasks is saved in the **data** folder, *BTDATA.zip*, which contains the data for the sentence puzzle and word puzzle. 
 * The data for training Roberta-L(RS) on RiddleSense is stored in *rs_train.jsonl*, and validation data is stored in *rs_dev.jsonl*.
-* 
-**Note:** The brain teaser was also selected as one of the interesting competitions in [SemEval 2024](https://brainteasersem.github.io/), So we only release training data at the current stage. We will release all data by the end of the competition. 
+
+**Note:** The brain teaser was also selected as one of the interesting competitions in [SemEval 2024](https://brainteasersem.github.io/), So we created a split for the Semeval Competition (train/test). The data contained in *BTDATA.zip* are as follows:
++--- SP_train.npy (Semeval training data)
++--- WP_train.npy (Semeval training data)
++--- SP_test.npy (Semeval test data)
++--- WP_test.npy (Semeval test data)
++--- SP_test_answer.npy (Semeval test data answer)
++--- WP_test_answer.npy (Semeval test data answer)
++--- sentence_puzzle.npy (EMNLP zero-shot experiment on all sentence puzzle data)
++--- word_puzzle.npy (EMNLP zero-shot experiment on all word puzzle data)
+
+
 
 **Note:** To prevent automatic data crawlers, *BTDATA.zip* needs a password: **brainteaser**
 
